@@ -2,7 +2,7 @@ import Logo from "./Logo/Logo";
 
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray-900" style={{position: 'relative',bottom: 0,width: '100%'}}>
+        <footer className="bg-white dark:bg-gray-900 border mt-20 border-gray-200" style={{position: 'relative',bottom: 0,width: '100%'}}>
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">

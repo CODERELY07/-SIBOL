@@ -78,11 +78,11 @@ function App() {
             </div>
           </div>
           <section className="bg-white dark:bg-gray-900" id="more">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-1">
+            <div className="py-8 px-4 text-white mt-10 mx-auto max-w-screen-xl lg:py-1">
               <div
                 data-aos="zoom-in-up"
                 data-aos-duration={1000}
-                className="hover:scale-105 hover:shadow-lg bg-gray-50 dark:bg-gray-800 border border-gray-200 cursor-pointer dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8"
+                className="hover:scale-101 hover:shadow-lg  bg-blue-600 dark:bg-gray-800 border border-gray-200 cursor-pointer dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8"
               >
                 <a
                   href="#"
@@ -90,10 +90,10 @@ function App() {
                 >
                   Akdang Pampanitikan
                 </a>
-                <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">
+                <h1 className="dark:text-white text-3xl md:text-5xl font-extrabold mb-2">
                   Ano ang SIBOL?
                 </h1>
-                <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
+                <p className="text-lg font-normal dark:text-gray-400 mb-6">
                   Suri sa Inobatibong Batay sa Online Learning. Gamit ang Online
                   Platform na ito maari mong masaba at matuto tungkol ibat ibat uri ng
                   mga panitikan katulad ng mga Alamat,Maikling kwento at iba pa.
@@ -103,18 +103,18 @@ function App() {
                 <div
                   data-aos="flip-left"
                   data-aos-duration={1000}
-                  className="hover:scale-105 hover:shadow-lg bg-gray-50 dark:bg-gray-800 border cursor-pointer border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12"
+                  className="hover:scale-101 hover:shadow-lg text-white bg-purple-500 dark:bg-gray-800 border cursor-pointer border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12"
                 >
                   <a
                     href="#"
-                    className="bg-green-100 text-green-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-green-400 mb-2"
+                    className="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-green-400 mb-2"
                   >
                     Alamat
                   </a>
-                  <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">
+                  <h2 className=" dark:text-white text-3xl font-extrabold mb-2">
                     Ano ang alamat?
                   </h2>
-                  <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
+                  <p className="text-lg font-normal  dark:text-gray-400 mb-4">
                     Ang alamat ay isang uri ng panitikan na nagkukuwento tungkol sa mga
                     pinagmulan ng mga bagaybagay sa daigdig. Ang alamat ay kuwento na
                     kathang isip lamang na kinasasangkutan ng kababalaghan
@@ -123,18 +123,18 @@ function App() {
                 <div
                   data-aos="flip-right"
                   data-aos-duration={1000}
-                  className="hover:scale-105 hover:shadow-lg bg-gray-50 dark:bg-gray-800 border cursor-pointer border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12"
+                  className="hover:scale-101 hover:shadow-lg bg-orange-500 dark:bg-gray-800 border cursor-pointer border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12"
                 >
                   <a
                     href="#"
-                    className="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2"
+                    className="bg-orange-100 text-orange-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2"
                   >
                     Maikling Kwento
                   </a>
-                  <h2 className="text-gray-900 dark:text-white cursor-pointer text-3xl font-extrabold mb-2">
+                  <h2 className="text-white dark:text-white cursor-pointer text-3xl font-extrabold mb-2">
                     Ano ang Maikling kwento?
                   </h2>
-                  <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
+                  <p className="text-lg font-normal text-white dark:text-gray-400 mb-4">
                     Ang maikling kuwento - binaybay ding maikling kwento - ay isang
                     maiksing salaysay hinggil sa isang mahalagang pangyayaring
                     kinasasangkutan ng isa o ilang tauhan at may iisang kakintalan o
